@@ -1,0 +1,157 @@
+/*-----NAVBAR------*/
+
+.navbar {
+    background-color: black;
+    height: 10vh;
+}
+
+.navbar-brand {
+    font-size: 4.5rem;
+    color: antiquewhite;
+    margin-left: 25px;
+    display: flex;
+    padding-right: 10vw;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: antiquewhite;
+    margin-right: 1.8vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.fas.fa-meteor {
+    font-size: 38px;
+    padding-top: 13px;
+    padding-left: 2px;
+}
+
+
+/*-----Dropdown-----*/
+
+.nav-item.dropdown {
+    cursor: pointer;
+}
+
+.dropdown-toggle {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    margin-top: 16px;
+    background-color: black;
+}
+
+.dropdown-item {
+    font-size: 18px;
+    color: white;
+}
+
+.nav-link.dropdown-toggle {
+    color: antiquewhite;
+}
+
+.nav-link.dropdown-toggle:hover {
+    color: aqua;
+}
+
+
+/*
+.nav-link.dropdown-toggle:focus {
+    color: none;
+}
+*/
+
+.nav-link.dropdown-toggle::after {
+    color: none;
+}
+
+a.dropdown-item {
+    color: antiquewhite;
+}
+
+a.dropdown-item:hover {
+    background-color: antiquewhite;
+    color: black;
+    width: 83%;
+}
+
+
+/*----x-Dropdown-x----*/
+
+
+/*------Login-Register-links-Navbar------*/
+
+.nav-item-account {
+    list-style-type: none;
+    padding: 3px 2px;
+}
+
+.nav-item-account:hover {
+    background-color: antiquewhite;
+    border-radius: 40px;
+    color: #1d1d1d;
+}
+
+.nav-item-account a:hover {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.nav-link-account {
+    color: antiquewhite;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+
+a.nav-link-account {
+    margin-right: 20px;
+}
+
+ul.account-list {
+    padding-right: 80px;
+}
+
+
+/*---x--Login-Register-links-Navbar---x--*/
+
+
+/*-------Search bar-------*/
+
+
+/*
+.btn.btn-outline-success {
+    width: 50px;
+    margin-right: 10px;
+    font-size: 17px;
+    color: gray;
+    border-color: gray;
+}
+
+.btn.btn-outline-success:hover {
+    background-color: gray;
+    color: black;
+    border-color: gray;
+}
+
+.form-control {
+    font-size: 11px;
+    width: 80px;
+}
+
+.form-inline {
+    padding-right: 40px;
+}
+*/
+
+
+/*---x---Search bar---x---*/
+
+
+/*---x---NAVBAR---x---*/
